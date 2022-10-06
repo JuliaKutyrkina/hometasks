@@ -1,4 +1,4 @@
-﻿// №15, третья цифра произвольного числа
+﻿// №13, третья цифра произвольного числа
 Console.Clear();
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
