@@ -1,20 +1,10 @@
-﻿// №13, третья цифра произвольного числа
+﻿// №15, определение выходных и будней по номеру дня недели
 Console.Clear();
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите номер дня недели");
 int n = Convert.ToInt32(Console.ReadLine());
-if (n>-100 && n<=99)
-    Console.WriteLine("Третья цифра отсутствует");
-else
-{
-   if   (n<-99)
-   {
-    string str = n.ToString();
-    Console.WriteLine(str[3]);
-   }
-    
-   else
-   {
-    string str = n.ToString();
-    Console.WriteLine(str[2]);
-   }
-}
+if (n<1 || n>7)
+    Console.WriteLine("Вы ошиблись! ВВедите номер дня недели в промежутке от 1 до 7");
+if (n == 6 || n == 7)
+    Console.WriteLine("yes");
+else 
+    Console.WriteLine("no");
