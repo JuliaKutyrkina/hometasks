@@ -14,4 +14,4 @@ Console.WriteLine(" Введите первое число: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Сумма чисел в промежутке от {m} до {n} составляет: {ResultNumbers(m, n)}");
+Console.WriteLine($"Сумма чисел в промежутке между {m} и {n} составляет: {ResultNumbers(m, n)}");
